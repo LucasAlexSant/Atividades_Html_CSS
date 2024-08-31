@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>AVENTURA</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">AVENTURA</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>Sobre</li>
+            <li class="ctn"><a href="#"></a>Contato</li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore as cores do Mundo</h2>
+            <div class="line"></div>
+            <h1>UM MARAVILHOSO PRESENTE</h1>
+            <a href="#" class="ctn">Saiba Mais</a>
+        </div>
+    </header>
+
+    <!-- == Eventos == -->
+    <section class="events">
+        <div class="title">
+            <h1>Próximos Eventos</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img/img1.png" alt="">
+                <h4>Trilha até o acampamento do Everest</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nisi tenetur quia? Ipsa, doloremque
+                    magnam!</p>
+                <a href="#" class="ctn">Saiba Mais</a>
+            </div>
+            <div class="col">
+                <img src="img/img2.png" alt="">
+                <h4>Caminhadas de Férias</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nisi tenetur quia? Ipsa, doloremque
+                    magnam!</p>
+                <a href="#" class="ctn">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE O MUNDO</h1>
+            <div class="line"></div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, aliquid iure numquam illum illo
+            cupiditate molestias quasi? Vitae, dicta dolor voluptas neque quasi eveniet illo.
+            <a href="#" class="ctn">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>PRÓXIMAS EXCURSÕES E DESTINOS</h1>
+                <div class="line"></div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta eius numquam necessitatibus voluptatibus delectus eligendi, nemo alias laborum aspernatur blanditiis fugit corporis illo quibusdam fuga sunt labore nisi perferendis temporibus.</p>
+                <a href="#" class="ctn">Saiba Mais</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="img/img3.png" alt="">
+                    <img src="img/img4.png" alt="">
+                    <img src="img/img5.png" alt="">
+                    <img src="img/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>123 Quinta Avenida, SP 102010, São Paulo, BR | Telefone: 123-456-789 | Email: email.teste@exemplo.com</p>
+        <p>Copyright 2024 Outdoor AVENTURA</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
